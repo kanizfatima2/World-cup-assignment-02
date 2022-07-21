@@ -125,7 +125,8 @@ body {
 
 }
 
-.content {
+.content,
+.content-upcoming {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -142,6 +143,8 @@ body {
     margin-left: 15px;
 }
 
+
+
 .content p {
     font-weight: bold;
     margin-top: 15px;
@@ -157,6 +160,23 @@ body {
 
 .icons small {
     padding: 0 25px 0 10px;
+}
+
+.content-upcoming img {
+    padding: 30px 10px;
+}
+
+.content-upcoming p {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 45px;
+
+}
+
+.content-upcoming small {
+    color: rgb(161, 158, 158);
+    margin-top: 15px;
+    margin-left: 50px;
 }
 
 /* View all Button Css  */
