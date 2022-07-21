@@ -111,10 +111,22 @@ body {
 
 }
 
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: red;
+}
+
 #blog-button {
     background-color: red;
     color: white;
 }
+
+
+/* Picture area css  */
 
 .main-content-area {
     width: 100%;
