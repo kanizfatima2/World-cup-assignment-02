@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* Utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+}
+
+/* Header Container Css  */
+
+.top-header-container {
+    width: 80vw;
+    /* height: 40vw; */
+    background-color: #08011d;
+    position: relative;
+    margin: 0 140px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.header-content-area {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    overflow: hidden;
+}
+
+.header-content {
+    height: 75%;
+    padding: 20% 0 20% 15%;
+}
+
+.header-content h1 {
+    color: white;
+    font-size: 50px;
+    text-overflow: ellipsis;
+}
+
+.header-content p {
+    color: white;
+    text-overflow: ellipsis;
+    padding: 25px 0 25px 0;
+
+}
+
+.watch-button {
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 1, 1);
+    color: white;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.watch-button i {
+    padding: 0 0 0 10px;
+}
+
+.header-img {
+    padding: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main-Content Area Css  */
+.main-container {
+    width: 80vw;
+    /* height: 40vw; */
+
+    position: relative;
+    margin: 0 140px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 280px repeat(1, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+.side-button {
+    background-color: #08011d;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.side-button button {
+    display: block;
+    height: 60px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 18px;
+    background-color: white;
+    font-weight: 20px;
+    padding: 2px;
+    border: none;
+
+}
+
+#blog-button {
+    background-color: red;
+    color: white;
+}
+
+.main-content-area {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+
+#transfer-button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.content p {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.icons small {
+    padding: 0 25px 0 10px;
+}
+
+/* View all Button Css  */
+.view-button {
+    display: none;
+    height: 60px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 18px;
+    background-color: red;
+    font-weight: 20px;
+    padding: 2px;
+    border: none;
+    color: white;
+
+}
+
+/* footer area css  */
+footer {
+    width: 100%;
+    height: 25vw;
+    overflow-x: hidden;
+    background-color: #08011d;
+    margin-top: 100px;
+}
+
+.footer h2 {
+    padding: 45px 0;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+hr {
+    width: 60%;
+    margin-left: 240px;
+}
+
+.footer-element {
+    margin-top: 45px;
+    padding: 0 20%;
+    overflow: hidden;
+}
+
+.footer-element a {
+    text-decoration: none;
+    color: rgb(236, 228, 228);
+    margin-right: 30px;
+}
+
+/* social-media link css  */
+.social-media-link i {
+    padding: 0 20px;
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.fa-brands {
+    color: white;
+}
+
+/* Media Query Css */
+/* For tablet media query  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .main-content-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .side-button {
+        background-color: white;
+        display: flex;
+        height: 100px;
+    }
+
+    .side-button button {
+        border: 1px solid black;
+    }
+
+    .view-button {
+        display: block;
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+}
+
+/* Media Query For Mobile */
+@media screen and (max-width: 600px) {
+    .header-content-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-content-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .side-button {
+        /* background-color: #1e1e1e; */
+        height: 250px;
+        border-radius: 15px;
+    }
+}
