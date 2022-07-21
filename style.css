@@ -67,6 +67,15 @@ body {
     padding: 0 0 0 10px;
 }
 
+.watch-button:hover {
+    background-color: rgb(230, 9, 171);
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
 .header-img {
     padding: 15px 15px 0 0;
     overflow: hidden;
